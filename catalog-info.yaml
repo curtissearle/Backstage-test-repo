@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  test-name: Backstage-test-repo
+  annotations:
+    github.com/project-slug: curtissearle/Backstage-test-repo
+spec:
+  type: other
+  lifecycle: unknown
+  owner: csearle
