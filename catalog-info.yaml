@@ -3,8 +3,6 @@ kind: Component
 metadata:
   name: Backstage-test-repo
   description: The place to be, for great artists
-  labels:
-    example.com/custom: custom_label_value
   annotations:
     github.com/project-slug: curtissearle/Backstage-test-repo
   tags:
@@ -14,8 +12,12 @@ metadata:
       title: Admin Dashboard
       icon: dashboard
       type: admin-dashboard
+    - url: https://admin.example-org.com
+      title: Monitoring Dashboard
+      icon: dashboard
+      type: admin-dashboard
 spec:
   type: website
   lifecycle: production
-  owner: artist-relations-team
+  owner: user:default/sergioperez
   system: public-websites
